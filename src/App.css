@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #c3bebb;
+  color: #000;
+}
+
+.Navbar {
+  color: #fff;
+  padding: 10px;
+  background: #134b8a;
+}
+
+.Search__item {
+  float:right;
+}
+
+.Place__list {
+  width: 80%;
+  margin: 10px auto;
+  background-color: #134b8a;
+}
+
+.Card {
+  border: 1px solid hsl(216,8%,88%);
+  border-radius: 4px;
+  width: 30%;
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: #fff;
+  float: left;
+}
+
+.Place__image * {
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  float: left;
+}
+
+.Place__detail {
+  padding: 5px 15px;
+}
+.Place__name {
+  font-weight: bold;
+}
+
+.Place__time {
+  float: left;
+}
+
+.Place__rating {
+  float: right;
+  color:#134b8a;
+}
+
+.Place__images {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.Place__images img {
+  width: 30%;
+  height: 100px;
+}
